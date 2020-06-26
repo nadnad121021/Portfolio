@@ -1,0 +1,64 @@
+<div class="content">
+  <div id="container">
+    <h1>&bull; Keep in Touch &bull;</h1>
+    <div class="underline"></div>
+    <h3>I'd love to hear from you.</h3>
+    <form
+      id="gform"
+      method="POST"
+      class="pure-form pure-form-stacked"
+      data-email="from_email@example.com"
+      action="https://script.google.com/macros/s/AKfycbz4R8fBpliesolZZXRpq312pliovGak49HeaNf-/exec"
+    >
+      <div class="name">
+        <label for="name"></label>
+        <input
+          type="text"
+          placeholder="Name"
+          name="name"
+          id="name_input"
+          required
+        />
+      </div>
+      <div class="email">
+        <label for="email"></label>
+        <input
+          type="email"
+          placeholder="Email"
+          name="email"
+          id="email_input"
+          required
+        />
+      </div>
+      <div class="telephone">
+        <label for="name"></label>
+        <input
+          type="text"
+          placeholder="Number"
+          name="number"
+          id="number_input"
+          required
+        />
+      </div>
+
+      <div class="message">
+        <label for="message"></label>
+        <textarea
+          name="message"
+          placeholder="Message"
+          id="message_input"
+          cols="30"
+          rows="3"
+          required
+        ></textarea>
+      </div>
+      <div class="submit">
+        <input type="submit" value="Send Message" id="form_button_submit" />
+        <!-- <input type="button" value="Send Message" (click)="onSendMessage()" /> -->
+        <!-- <input type="button" value="Send Message" id="form_button" /> -->
+      </div>
+    </form>
+    <!-- // End form -->
+  </div>
+  <!-- // End #container -->
+</div>
