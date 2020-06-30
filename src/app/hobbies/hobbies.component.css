@@ -1,4 +1,4 @@
-.content {
+/* .content {
   margin-top: 100px;
 }
 h1 {
@@ -16,7 +16,6 @@ h1 {
   width: 654px;
   margin: 50px auto;
   border-radius: 7px 7px 7px 7px;
-  /* VIA CSS MATIC https://goo.gl/cIbnS */
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -126,4 +125,116 @@ span {
 
 .hobby-price-btn button:hover {
   background-color: #79b0a1;
+} */
+
+/* * {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  -webkit-perspective: 2500px;
+  perspective: 2500px;
+  -webkit-perspective-origin: 100% 50%;
+  perspective-origin: 100% 50%;
+}
+.wrap .girl {
+  border: #fffefe 10px solid;
+  background: url("https://res.cloudinary.com/malaika/image/upload/e_grayscale/v1564579524/d7isyf5-137c7a98-d161-496f-9753-f96f530be3be_1.png")
+    no-repeat;
+  margin-left: 0;
+  width: 450px;
+  height: 600px;
+  bottom: 0%;
+  top: 10%;
+  position: absolute;
+}
+.wrap h1 {
+  left: -5%;
+  transform: rotate(-49deg);
+  color: #333;
+  font-size: 4em;
+  font-family: Raleway, sans-serif;
+  top: 25%;
+  position: absolute;
+}
+.wrap h1 span {
+  color: black;
+  font-weight: 1000;
+}
+.wrap .list {
+  width: 80%;
+  height: 150vh;
+  overflow-x: hidden;
+  webkit-transform: rotateX(35deg) rotateY(3deg) rotateZ(27deg);
+  transform: rotateX(35deg) rotateY(3deg) rotateZ(27deg);
+  margin: 0 0 0 200px;
+  padding: 150px 100px 500px 0;
+  scrollbar-width: none;
+}
+.wrap .list::-webkit-scrollbar {
+  display: none;
+}
+.wrap .list::-webkit-scrollbar {
+  display: none;
+}
+.wrap .list::-webkit-scrollbar {
+  display: block;
+}
+.wrap .list .item {
+  filter: grayscale(100%);
+  width: 30%;
+  height: 400px;
+  margin: 20px;
+  display: inline-block;
+  position: relative;
+}
+.wrap .list .item::after {
+  content: "";
+  position: absolute;
+  z-index: 150;
+  width: 100%;
+  top: 0px;
+  left: -0px;
+  height: 100%;
+  opacity: 0.1;
+}
+.wrap .list .item .img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 1px 1px 50px 0 #000;
+  -webkit-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  z-index: 10;
+  position: relative;
+}
+
+button {
+  border: 2px solid black;
+  padding: 10px;
+  z-index: 9999;
+  top: -300px;
+  position: relative;
+  display: inline;
+  margin-left: -60px;
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .girl {
+    background: url(https://res.cloudinary.com/malaika/image/upload/v1564328867/Gabriella-Wilde-PNG-HD_1_2.png)
+      no-repeat cover fixed;
+  }
+
+  h1 {
+    display: none;
+  }
+} */
