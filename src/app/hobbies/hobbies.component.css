@@ -1,4 +1,4 @@
-/* .content {
+.content {
   margin-top: 100px;
 }
 h1 {
@@ -125,7 +125,7 @@ span {
 
 .hobby-price-btn button:hover {
   background-color: #79b0a1;
-} */
+}
 
 /* * {
   box-sizing: border-box;
@@ -145,8 +145,7 @@ span {
 }
 .wrap .girl {
   border: #fffefe 10px solid;
-  background: url("https://res.cloudinary.com/malaika/image/upload/e_grayscale/v1564579524/d7isyf5-137c7a98-d161-496f-9753-f96f530be3be_1.png")
-    no-repeat;
+  background: url("../../assets/images/danilo1.png") no-repeat;
   margin-left: 0;
   width: 450px;
   height: 600px;
