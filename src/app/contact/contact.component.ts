@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+  styleUrls: ['./contact.component.css'],
 })
 export class ContactComponent implements OnInit {
   name: string = '';
@@ -23,10 +23,10 @@ export class ContactComponent implements OnInit {
           name: 'Angular POST Request Example',
           number: '09736274634',
           message: 'Message',
-          email: 'sample@gmail.com'
+          email: 'sample@gmail.com',
         }
       )
-      .subscribe(data => {
+      .subscribe((data) => {
         alert(data);
       });
     //console.log('submitting');
